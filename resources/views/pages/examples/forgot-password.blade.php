@@ -18,7 +18,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+  <a href="/"><b>App-Students</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -43,10 +43,10 @@
       </form>
 
       <p class="mt-3 mb-1">
-        <a href="login.html">Login</a>
+        <a href="/pages/examples/login">Login</a>
       </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
+        <a href="/pages/examples/register" class="text-center">Register a new membership</a>
       </p>
     </div>
     <!-- /.login-card-body -->

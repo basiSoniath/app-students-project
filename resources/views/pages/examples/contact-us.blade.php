@@ -24,10 +24,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index" class="nav-link">Home</a>
+        <a href="/" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../examples/contact-us" class="nav-link">Contact</a>
+        <a href="/pages/examples/contact-us" class="nav-link">Contact</a>
       </li>
     </ul>
 
@@ -311,12 +311,7 @@
           <div class="col-sm-6">
             <h1>Contact us</h1>
           </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Contact us</li>
-            </ol>
-          </div>
+          
         </div>
       </div><!-- /.container-fluid -->
     </section>
@@ -327,14 +322,7 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-body row">
-          <div class="col-5 text-center d-flex align-items-center justify-content-center">
-            <div class="">
-              <h2>Admin<strong>LTE</strong></h2>
-              <p class="lead mb-5">123 Testing Ave, Testtown, 9876 NA<br>
-                Phone: +1 234 56789012
-              </p>
-            </div>
-          </div>
+          
           <div class="col-7">
             <div class="form-group">
               <label for="inputName">Name</label>
@@ -366,9 +354,8 @@
 
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.2.0
     </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2020-2023 <a href="/">App-Students</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->
