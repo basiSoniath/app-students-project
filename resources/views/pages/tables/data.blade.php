@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>App-Students | DataTables</title>
+  <title>App-Students | Bulletins</title>
   <link rel="icon" href="../../dist/img/logoAppStudent.png" type="image/png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -26,10 +26,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index.html" class="nav-link">Home</a>
+        <a href="/" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../examples/contact-us.html" class="nav-link">Contact</a>
+        <a href="/pages/examples/contact-us" class="nav-link">Contact</a>
       </li>
     </ul>
 
@@ -315,15 +315,18 @@
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>DataTables</h1>
+          <div class="col-sm-4" >
+            <img src="/dist/img/lcs-logo.png" alt="">
+            <h5 style="margin-left: 200px;">FOE/ENR/015/-CT <br> Version : 02</h5>
           </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">DataTables</li>
-            </ol>
+          <div class="col-sm-6" >
+            <h3>CERTIFICAT D'UNITE D'ENSEIGNEMENT DE <br> <span style="margin-left: 70px;">LICENCE PROFESSIONNELLE</span> </h3>
+            <h5 style="margin-left: 140px;margin-bottom:60px;">LES COURS SONOU SONOU</h5> 
           </div>
+          <div class="col-sm-2" style="float:left;">
+            <img src="/dist/img/lcs-iso.png" alt="" style="height: 10em; width: 10em ;"> 
+          </div>
+
         </div>
       </div><!-- /.container-fluid -->
     </section>
