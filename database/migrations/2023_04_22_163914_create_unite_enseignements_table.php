@@ -11,8 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('unite_enseignements', function (Blueprint $table) {
+        Schema::create('unite_enseignements', function (Blueprint $table){
             $table->string('codUE');
+            $table->primary(['codUE' , 'codS']);
             $table->string('libelleUE');
             $table->timestamps();
         });

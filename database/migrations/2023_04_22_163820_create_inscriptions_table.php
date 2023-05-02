@@ -11,11 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('inscriptions', function (Blueprint $table) {
-            $table->id();
-            $table->string('numIns')->unique();
-            $table->string('numMat');
-            $table->string('codFil');
+        Schema::create('inscriptions', function (Blueprint $table){
+            $table->string('NumIns')->unique();
+            $table->primary('NumIns');
+            $table->foreignNumMat('NumMat_etudiant')->constrained();    
+            $table->foreignCodfil('CodFil_filiere')->constrained();   
             $table->string('annee');
             $table->timestamps();
         });

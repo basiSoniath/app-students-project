@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('semestres', function (Blueprint $table) {
             $table->string('codS');
+            $table->primary('codS');
             $table->string('libelles');
             $table->timestamps();
         });

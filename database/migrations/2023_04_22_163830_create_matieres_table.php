@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('matieres', function (Blueprint $table) {
             $table->string('codMat');
+            $table->primary(['codMat' , 'codUE']);
             $table->string('libelle');
             $table->int('credit');
             $table->timestamps();

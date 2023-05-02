@@ -240,7 +240,7 @@
           <li class="nav-item">
             
               <a href="/pages/examples/contact-us" class="nav-link">
-                <i class=""></i>
+                <i class="fa-fa-phone"></i>
                 <p>Contact us</p>
               </a>
             </li>
@@ -329,7 +329,7 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    <div class="content-header" >
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
@@ -409,7 +409,7 @@
         </div>
         <!-- /.row -->
         <!-- Main row -->
-        <div class="row">
+      <div class="row">
           
         
         <h3 style=" font-family: 'Ubuntu', sans serif;">
@@ -417,7 +417,7 @@
             développement pour un avenir<br>
             meilleur et une jeunesse épanouie
         </h3>
-        </div>
+      </div>
         <div id="carouselExampleIndicators" class="message_box carousel slide text-info" data-ride="carousel" data-interval="14000">
 	<!-- carousel code -->
         <ol class="carousel-indicators">

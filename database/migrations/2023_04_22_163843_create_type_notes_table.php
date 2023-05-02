@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('type_notes', function (Blueprint $table) {
             $table->string('codTN');
+            $table->primary('codTN');
             $table->string('description');
             $table->timestamps();
         });
